@@ -77,37 +77,16 @@ public class Main {
        */
 
         //5.Write a Java program to find a shortest word of a given array:
+/*
+String arr[]={"Tuwaiq", "Bootcamp" , "Student","JAVA"};
 
-
-        /*ArrayList <String> original=new ArrayList<>();
-        original.add("Tuwaiq");
-        original.add("Bootcamp");
-        original.add("Student");
-        original.add("JAVA");
-        System.out.println("the original list is:"+original);
-for(String s:original) {
-
-    if (s.length()>(s.length())+1) {
-
-        System.out.println((s.length())+1);
-
-    }
-}
-
-         */
-        String arr[]={"Tuwaiq", "Bootcamp" , "Student","JAVA"};
-        for(int i=0;i<arr.length;i++){
-            if(arr[i].length()>arr[i+1].length()){
-                System.out.println(arr[i+1]);
-            }else if(arr[i+1].length()>arr[i+2].length()){
-                System.out.println(arr[i+2]);
-
-            }else
-                if(arr[i+2].length()>arr[i+3].length()){
-                    System.out.println(arr[i+3]);
-                }
-            else System.out.println(arr[i+4]);
-        }
-
+         String shortw=arr[0];
+         for(int i=1;i<arr.length;i++) {
+             if(arr[i].length()<shortw.length()) {
+                 shortw=arr[i];
+             }
+         }
+        System.out.println(shortw);
+*/
     }
 }
